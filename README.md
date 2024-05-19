@@ -24,7 +24,7 @@ The project consists of multiple programming tasks and challenges, each focusing
 
 ### Task 1: Implement a function to check if a given string is a palindrome
 
-In this task, you will write a function to determine whether a given string is a palindrome or not. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward.
+This function checks if a given string is a palindrome by converting the string to lowercase, removing non-alphanumeric characters, and comparing the cleaned string with its reverse. It returns True if the string is a palindrome and False otherwise.
 
 ### Task 2: Create a simple to-do list application using HTML, CSS, and JavaScript
 
@@ -42,11 +42,11 @@ RESTful API (optional): If using a server-side storage solution, a RESTful API m
 
 ### Task 3: Write a function that takes an array of integers and returns a new array with only the unique values
 
-You will write a function to remove duplicate integers from an array and return a new array containing only the unique values.
+This function takes an array of integers and returns a new array containing only the unique values. It iterates through the array, adding each integer to a set to filter out duplicates, and then converts the set back to a list to return the unique integers.
 
 ### Task 4: Implement a recursive function to calculate the factorial of a number
 
-In this task, you will implement a recursive function to calculate the factorial of a given number. Factorial of a non-negative integer n is the product of all positive integers less than or equal to n.
+This recursive function calculates the factorial of a given non-negative integer. The function handles input validation to ensure the number is a non-negative integer, raising an error otherwise. For valid input, it recursively multiplies the integer by the factorial of the previous integer, with the base case being the factorial of 0 or 1, which is 1.
 
 ### Task 5: Create a dynamic form validation library in JavaScript
 
