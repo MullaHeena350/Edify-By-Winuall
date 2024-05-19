@@ -9,11 +9,9 @@ def factorial(n):
     int: The factorial of the given number, or -1 if n is negative or not an integer
     """
     if not isinstance(n, int) or n < 0:
-        return -1  # Factorial is not defined for negative numbers or non-integer numbers
+        return -1
     else:
-        # Initialize the factorial result to 1
         result = 1
-        # Multiply result by each integer from 1 to n
         for i in range(1, n + 1):
             result *= i
         return result
